@@ -1,3 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+*{
+	font-family: "Roboto"
+}
+
 h1{
 	font-size: 30px;
 	text-align: center;
@@ -62,4 +68,18 @@ nav ul{
   color: #4a4a4a;
   padding: 10px 10px 10px 10px;
   border-top: 1px solid #4a4a4a;
+}
+
+.contact{
+	text-align: center;
+}
+
+form{
+	display: flex;
+	flex-wrap: wrap;
+	background-image: url("../images/YzyPrint.jpg");
+	background-color: #f1f1f1;
+	color: red;
+	border: 1px solid red;
+	font-size: 50;
 }
