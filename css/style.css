@@ -99,3 +99,14 @@ text-align: left;
 position: absolute; left:0px; top:20px;
 border-top: 2px solid yellow;
 }
+
+@media screen and (min-width: 1024px){
+	main {
+	  grid-template-columns: 250px 250px 250px;
+}
+
+@media screen and (min-width: 1280px){
+	main {
+	  grid-template-columns: 250px 250px 250px 250px;
+}
+}
